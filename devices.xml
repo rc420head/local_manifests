@@ -3,6 +3,15 @@
 	
 	 <remote  name="bb"
           fetch="https://bitbucket.org" />
+  <!-- common -->
+  <project path="device/qcom/common" name="device_qcom_common" remote="aqua-devices" revision="a8.1.0-caf" />
+  <!-- g4 -->
+  <project name="device_lge_h811" path="device/lge/h811" remote="aqua-devices" revision="a8.1.0-caf" />
+  <project name="device_lge_g4-common" path="device/lge/g4-common" remote="aqua-devices" revision="a8.1.0-caf" />
+  <project name="CypherOS/hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="oreo-mr1-release" />
+  <project name="CypherOS/hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="oreo-mr1-release" />
+  <project name="CypherOS/kernel_lge_msm8992" path="kernel/lge/msm8992" remote="github" revision="oreo-mr1-release" />
+  <project name="CypherOS/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="oreo-mr1-release" /> 
   <!-- g6 
   <project name="device_lge_h870" path="device/lge/h870" remote="aqua" revision="a8.0.0" />
   <project name="device_lge_us997" path="device/lge/us997" remote="aqua" revision="a8.0.0" />
@@ -11,9 +20,10 @@
   <project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-15.0" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.0" /> -->
   <!-- pme -->
-  <project name="device_htc_pme" path="device/htc/pme" remote="aqua" revision="a8.0.0" />
-  <project name="EAS-Project/android_device_voxpopuli" path="device/voxpopuli" remote="github" revision="msm8996" />
-  <project name="FusionDevices/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="github" revision="pf-o" />
-  <project name="OctopusParty/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="pf-o" />
-  <project name="PureFusionOS/aarch64-linux-android-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" remote="bb" revision="20171107" /> 
+  <project name="Fagyi/android_device_htc_pme" path="device/htc/pme" remote="github" revision="aosip-oreo" />
+  <!-- <project name="EAS-Project/android_device_voxpopuli" path="device/voxpopuli" remote="github" revision="msm8996" />
+  <project name="PureFusionOS/aarch64-linux-android-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" remote="bb" revision="20171107" /> -->
+  <project name="Fagyi/htc_pme_kernel" path="kernel/htc/msm8996" remote="github" revision="lineage-15.0" />
+  <project name="Fagyi/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="aosip-oreo-stable" />
+
 </manifest>
