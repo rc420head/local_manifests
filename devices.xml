@@ -13,17 +13,15 @@
   <project name="CypherOS/kernel_lge_msm8992" path="kernel/lge/msm8992" remote="github" revision="oreo-mr1-release" />
   <!-- <project name="CypherOS/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="oreo-mr1-release" /> -->
   <!-- g6  -->
-  <project name="LineageOS/android_device_lge_h870" path="device/lge/h870" remote="github" revision="staging/lineage-15.1" />
-  <project name="LineageOS/android_device_lge_us997" path="device/lge/us997" remote="github" revision="staging/lineage-15.1" />
-  <project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="staging/lineage-15.1" />
-  <project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="staging/lineage-15.1" />
+  <project name="device_lge_h870" path="device/lge/h870" remote="aqua-devices" revision="a8.1.0-caf" />
+  <project name="device_lge_us997" path="device/lge/us997" remote="aqua-devices" revision="a8.1.0-caf" />
+  <project name="device_lge_g6-common" path="device/lge/g6-common" remote="aqua-devices" revision="a8.1.0-caf" />
+  <project name="device_lge_msm8996-common" path="device/lge/msm8996-common" remote="aqua-devices" revision="a8.1.0-caf" />
   <project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="staging/lineage-15.1" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="staging/lineage-15.1" />
   <!-- pme -->
   <project name="device_htc_pme" path="device/htc/pme" remote="aqua" revision="a8.1.0-caf" />
-  <project name="EAS-Project/android_device_voxpopuli" path="device/voxpopuli" remote="github" revision="msm8996" />
-  <project name="FusionDevices/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="github" revision="pf-o" />
-  <project name="OctopusParty/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="pf-o" />
-  <project name="PureFusionOS/aarch64-linux-android-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" remote="bb" revision="20171107" /> 
+  <project name="Fagyi/htc_pme_kernel" path="kernel/htc/msm8996" remote="github" revision="IceMan-11" />
+  <project name="Fagyi/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="aosip-oreo-stable" />
 
 </manifest>
