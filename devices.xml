@@ -20,7 +20,7 @@
   <project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="staging/lineage-15.1" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="staging/lineage-15.1" />
   <!-- pme -->
-  <project name="device_htc_pme" path="device/htc/pme" remote="aqua" revision="a8.1.0-caf" />
+  <project name="device_htc_pme" path="device/htc/pme" remote="aqua-devices" revision="a8.1.0-caf" />
   <project name="Fagyi/htc_pme_kernel" path="kernel/htc/msm8996" remote="github" revision="IceMan-11" />
   <project name="Fagyi/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="aosip-oreo-stable" />
 
