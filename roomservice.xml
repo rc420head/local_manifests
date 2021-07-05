@@ -15,7 +15,7 @@
 <!-- Device -->
   <!-- Guacamole -->
   <project name="device_oneplus_guacamole" path="device/oneplus/guacamole" remote="hd" revision="eleven" />
-  <project name="device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="hd" revision="eleven" />
+  <project name="AOSiP-Devices/device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="gh" revision="eleven" />
   <project name="AOSiP-Devices/kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="gh" revision="eleven" />
   <project name="LineageOS/android_device_oneplus_common" path="device/oneplus/common" remote="gh"  revision="lineage-18.1" />
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="gh"  revision="lineage-18.1" />
